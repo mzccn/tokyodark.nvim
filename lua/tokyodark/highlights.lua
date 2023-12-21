@@ -144,12 +144,13 @@ M.highlights = {
     CxxKeyword = { fg = p.red, bold = true },
     CxxStatement = { fg = p.red, italic = true },
     CxxParameter = { fg = p.yellow + gamma(3), underline = true, sp = p.yellow },
-    CxxVariable = { fg = p.fg + gamma(2), underline = true, sp = p.fg },
+    CxxVariable = { fg = p.fg + gamma(1.5), underline = true, sp = p.fg },
     CxxMemberVariable = { fg = p.green, underline = true},
-    CxxNamespace = { fg = p.orange, italic = true},
+    CxxNamespace = { fg = p.fg, italic = true},
     CxxStaticMemberVariable = { fg = p.blue + gamma(1.5), underline = true },
     CxxFunctionNoSideEffect = { fg = p.cyan },
-    CxxType = {fg = p.yellow + gamma(1.2), bold = true },
+    CxxType = {fg = p.blue, bold = true },
+    CxxString = {fg = p.yellow },
 
     -- whichkey
     WhichKey = { fg = p.red },
