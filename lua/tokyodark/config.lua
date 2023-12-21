@@ -8,7 +8,7 @@ local default_config = {
         keywords = { italic = true },
         identifiers = { italic = true },
         functions = {},
-        variables = {},
+        variables = { underline = true },
     },
     custom_highlights = {} or function(highlights, palette) end,
     custom_palette = {} or function(palette) end,

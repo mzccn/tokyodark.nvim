@@ -140,6 +140,15 @@ M.highlights = {
     SpecialComment = { fg = p.bg4 } + styles.comments,
     Todo = { fg = p.blue } + styles.comments,
 
+    CxxModuleInclude = { fg = p.red + gamma(0.7), bold = true },
+    CxxKeyword = { fg = p.red + gamma(0.7), bold = true },
+    CxxStatement = { fg = p.red + gamma(0.7), italic = true },
+    CxxParameter = { fg = p.yellow + gamma(1), underline = true, sp = p.yellow },
+    CxxVariable = { fg = p.fg, underline = true, sp = p.fg },
+    CxxMemberVariable = { fg = p.blue, underline = true},
+    CxxNamespace = { fg = p.yellow + gamma(1.2), italic = true},
+    CxxType = {fg = p.orange, bold = true },
+
     -- whichkey
     WhichKey = { fg = p.red },
     WhichKeyDesc = { fg = p.blue },
