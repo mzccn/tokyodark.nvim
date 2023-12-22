@@ -150,7 +150,7 @@ M.highlights = {
     CxxStaticMemberVariable = { fg = p.blue + gamma(1.5), underline = true },
     CxxFunctionNoSideEffect = { fg = p.cyan },
     CxxType = {fg = p.orange },
-    CxxEnum = {fg = p.orange },
+    CxxEnum = {fg = p.yellow },
     CxxString = {fg = p.orange + gamma(0.75) },
 
     -- whichkey
