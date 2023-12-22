@@ -146,7 +146,7 @@ M.highlights = {
     CxxParameter = { fg = p.grey + gamma(2.5), underline = true },
     CxxVariable = { fg = p.fg, underline = true, sp = p.fg },
     CxxMemberVariable = { fg = p.cyan , underline = true},
-    CxxNamespace = { fg = p.fg, italic = true},
+    CxxNamespace = { fg = p.grey + gamma(2.5), italic = true},
     CxxStaticMemberVariable = { fg = p.green, underline = true },
     CxxFunctionNoSideEffect = { fg = p.blue },
     CxxType = {fg = p.yellow },
