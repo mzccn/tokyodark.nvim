@@ -27,7 +27,7 @@ local palette = {
     blue = "#7199EE",
     cyan = "#38A89D",
     purple = "#A485DD",
-    grey = "#4A5057",
+    grey = "#2A3027",
     none = "NONE",
 }
 
