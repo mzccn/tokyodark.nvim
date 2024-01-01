@@ -106,7 +106,7 @@ M.highlights = {
     ToolbarButton = { fg = p.bg0, bg = p.bg_blue },
     FocusedSymbol = { bg = p.bg3 },
 
-    Type = { fg = p.blue } + styles.keywords,
+    Type = { fg = p.purple } + styles.keywords,
     Structure = { fg = p.blue } + styles.keywords,
     StorageClass = { fg = p.blue } + styles.keywords,
     Identifier = { fg = p.orange } + styles.identifiers,
