@@ -152,6 +152,7 @@ M.highlights = {
     CxxType = {fg = p.yellow },
     CxxEnum = {fg = p.yellow },
     CxxString = {fg = p.orange },
+    CxxConcept = {fg = p.green, italic = true },
 
     -- whichkey
     WhichKey = { fg = p.red },
